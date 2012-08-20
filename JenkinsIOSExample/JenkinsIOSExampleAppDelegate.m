@@ -23,7 +23,7 @@
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    NSLog(@"open wide");
+    NSLog(@"open wide duede");
     return YES;
 }
 
