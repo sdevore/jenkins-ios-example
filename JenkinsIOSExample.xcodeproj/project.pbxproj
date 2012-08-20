@@ -199,6 +199,9 @@
 /* Begin PBXProject section */
 		BC22503013B2BA930006D350 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
 			buildConfigurationList = BC22503313B2BA930006D350 /* Build configuration list for PBXProject "JenkinsIOSExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -361,6 +364,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JenkinsIOSExample/JenkinsIOSExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JenkinsIOSExample/JenkinsIOSExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -374,6 +378,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JenkinsIOSExample/JenkinsIOSExample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JenkinsIOSExample/JenkinsIOSExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
@@ -392,6 +397,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JenkinsIOSExampleTests/JenkinsIOSExampleTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JenkinsIOSExampleTests/JenkinsIOSExampleTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -415,6 +421,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JenkinsIOSExampleTests/JenkinsIOSExampleTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JenkinsIOSExampleTests/JenkinsIOSExampleTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
