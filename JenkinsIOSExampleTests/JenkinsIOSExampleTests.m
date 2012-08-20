@@ -32,7 +32,7 @@
 
 - (void)testFail
 {
-    STAssertTrue(TRUE,@"Some test scenario has passed.",nil);
+    STAssertTrue(TRUE,@"Some test scenario has passed.  Woop",nil);
 }
 
 
